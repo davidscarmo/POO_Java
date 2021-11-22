@@ -1,5 +1,5 @@
 
-public class Funcionario {
+public abstract class Funcionario {
 	private String nome;
 	private String cpf;
 	private double salario;
@@ -8,10 +8,7 @@ public class Funcionario {
 
 	}
 
-	public double getBonificacao() {
-		System.out.println("Chamando o metodo de bonificacao do FUNCIONARIO");
-		return this.salario * .05;
-	}
+	public abstract double getBonificacao();
 
 	public String getNome() {
 		return nome;
