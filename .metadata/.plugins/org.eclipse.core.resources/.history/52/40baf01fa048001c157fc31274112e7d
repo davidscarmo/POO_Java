@@ -1,0 +1,6 @@
+
+public class Cliente {
+	String name; 
+	String cpf; 
+	String profissao; 
+}

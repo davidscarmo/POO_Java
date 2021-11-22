@@ -1,0 +1,6 @@
+
+public class ControleBonificacao {
+	public static void registra(String[] args) {
+		
+	}
+}

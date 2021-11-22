@@ -1,0 +1,9 @@
+
+public class TesteGerente {
+	public static void main(String[] args) {
+		Gerente g1 = new Gerente();
+		
+		g1.setNome("David");
+		g1.setCpf("123.123.123-22");
+	}
+}

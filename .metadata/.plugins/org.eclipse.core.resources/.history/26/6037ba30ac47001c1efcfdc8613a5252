@@ -1,0 +1,7 @@
+
+public class TestaCondicional {
+	public static void main(String[] args) {
+		double val = 0.1 + 0.7;
+		System.out.println(val);
+	}
+}
