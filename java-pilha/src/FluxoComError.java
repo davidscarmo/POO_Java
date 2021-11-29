@@ -1,4 +1,5 @@
-public class FluxoComTratamento {
+
+public class FluxoComError {
 
 	public static void main(String[] args) {
 		System.out.println("ini do main");
@@ -20,9 +21,7 @@ public class FluxoComTratamento {
 
 	private static void metodo2() {
 		System.out.println("Ini do metodo2");
-//		Conta c = new Conta();
-//		throw new ArithmeticException("Deu errado");
-		// System.out.println("Fim do metodo2");
-		throw new MinhaExcecao("Deu muito errado!");
+		metodo2();
+		System.out.println("Fim do metodo2");
 	}
 }
