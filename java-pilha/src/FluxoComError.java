@@ -5,7 +5,7 @@ public class FluxoComError {
 		System.out.println("ini do main");
 		try {
 			metodo1();
-		} catch (ArithmeticException | NullPointerException | MinhaExcecao ex) {
+		} catch (Exception ex) {
 			String msg = ex.getMessage();
 			System.out.println("Exception " + msg);
 			ex.printStackTrace();
@@ -21,7 +21,7 @@ public class FluxoComError {
 
 	private static void metodo2() {
 		System.out.println("Ini do metodo2");
-		metodo2();
+		//metodo2();
 		System.out.println("Fim do metodo2");
 	}
 }
